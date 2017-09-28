@@ -1,0 +1,250 @@
+[19-Sep-2017 15:38:59 UTC] Error Unknown column 'wp_' in 'field list' de la base de datos de WordPress para la consulta SELECT wp_
+[19-Sep-2017 21:10:39 UTC] [INFO] [fg-prestashop-to-woocommerce] === START test_database 2017-09-19 21:10:39 ===
+[19-Sep-2017 21:10:39 UTC] [ERROR] [fg-prestashop-to-woocommerce] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'site_user'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+[19-Sep-2017 21:10:39 UTC] [INFO] [fg-prestashop-to-woocommerce] === END test_database 2017-09-19 21:10:39 ===
+
+[19-Sep-2017 21:10:58 UTC] [INFO] [fg-prestashop-to-woocommerce] === START test_database 2017-09-19 21:10:58 ===
+[19-Sep-2017 21:10:59 UTC] [ERROR] [fg-prestashop-to-woocommerce] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [2002] Connection refused<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+[19-Sep-2017 21:10:59 UTC] [INFO] [fg-prestashop-to-woocommerce] === END test_database 2017-09-19 21:10:59 ===
+
+[19-Sep-2017 21:11:55 UTC] [INFO] [fg-prestashop-to-woocommerce] === START test_database 2017-09-19 21:11:55 ===
+[19-Sep-2017 21:11:55 UTC] [ERROR] [fg-prestashop-to-woocommerce] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'site_user'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+[19-Sep-2017 21:11:55 UTC] [INFO] [fg-prestashop-to-woocommerce] === END test_database 2017-09-19 21:11:55 ===
+
+[19-Sep-2017 21:22:19 UTC] [INFO] [fg-prestashop-to-woocommerce] === START test_database 2017-09-19 21:22:19 ===
+[19-Sep-2017 21:22:19 UTC] [ERROR] [fg-prestashop-to-woocommerce] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'site_user'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+[19-Sep-2017 21:22:19 UTC] [INFO] [fg-prestashop-to-woocommerce] === END test_database 2017-09-19 21:22:19 ===
+
+[19-Sep-2017 21:22:39 UTC] [INFO] [fg-prestashop-to-woocommerce] === START test_database 2017-09-19 21:22:39 ===
+[19-Sep-2017 21:22:40 UTC] [ERROR] [fg-prestashop-to-woocommerce] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [2002] Connection refused<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+[19-Sep-2017 21:22:40 UTC] [INFO] [fg-prestashop-to-woocommerce] === END test_database 2017-09-19 21:22:40 ===
+
+[19-Sep-2017 21:23:27 UTC] [INFO] [fg-prestashop-to-woocommerce] === START test_database 2017-09-19 21:23:27 ===
+[19-Sep-2017 21:23:28 UTC] [ERROR] [fg-prestashop-to-woocommerce] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [2002] Connection refused<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+[19-Sep-2017 21:23:28 UTC] [INFO] [fg-prestashop-to-woocommerce] === END test_database 2017-09-19 21:23:28 ===
+
+[19-Sep-2017 21:38:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/seekdev/public_html/bluewp/wp-includes/class-wp-image-editor.php on line 420
+[21-Sep-2017 03:57:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/seekdev/public_html/bluewp/wp-includes/class-wp-image-editor-gd.php on line 190
+[21-Sep-2017 16:42:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/seekdev/public_html/bluewp/wp-includes/taxonomy.php on line 0
+[22-Sep-2017 05:36:38 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 05:36:38 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 05:41:48 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por do_action('wp_ajax_save-widget'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ajax_save_widget, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 05:41:48 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por do_action('wp_ajax_save-widget'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ajax_save_widget, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 05:43:13 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por do_action('wp_ajax_save-widget'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ajax_save_widget, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 05:43:13 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por do_action('wp_ajax_save-widget'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ajax_save_widget, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 05:44:11 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por do_action('wp_ajax_save-widget'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ajax_save_widget, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 05:44:11 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por do_action('wp_ajax_save-widget'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wp_ajax_save_widget, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 07:57:33 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 07:57:33 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 07:57:33 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widget_controls, dynamic_sidebar, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[22-Sep-2017 07:57:33 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widget_controls, dynamic_sidebar, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 02:55:34 UTC] PHP Fatal error:  Call to undefined function mb_detect_encoding() in /home/seekdev/public_html/bluewp/wp-content/plugins/woocommerce/includes/export/abstract-wc-csv-exporter.php on line 356
+[26-Sep-2017 06:12:17 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 06:12:17 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 06:12:17 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widget_controls, dynamic_sidebar, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 06:12:17 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widget_controls, dynamic_sidebar, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 07:00:38 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 07:00:38 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 07:00:38 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widget_controls, dynamic_sidebar, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 07:00:38 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widget_controls, dynamic_sidebar, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 15:22:47 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 15:22:47 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 20:47:41 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 20:47:41 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 20:52:03 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT min(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price","_min_variation_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 20:52:03 UTC] Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_pri' at line 2 de la base de datos de WordPress para la consulta 
+					SELECT max(meta_value + 0)
+					FROM %1$s
+					LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+					WHERE meta_key IN ("_price")
+				 realizada por wp_list_widgets, call_user_func_array, wp_widget_control, call_user_func_array, WP_Widget->form_callback, YITH_WCAN_List_Price_Filter_Widget->form
+[26-Sep-2017 21:11:13 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/seekdev/public_html/bluewp/wp-content/plugins/wp-all-export-pro/classes/zip.php on line 46
